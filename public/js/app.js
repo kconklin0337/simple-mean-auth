@@ -22,7 +22,7 @@ angular.module('myApp')
       access: {restricted: false}
     })
     .otherwise({
-      redirectTo: '/'
+      redirectTo: '/login'
     });
 });
 
